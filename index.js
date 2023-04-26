@@ -7,7 +7,7 @@ server.use(express.static('public'));
 
 server.get('/', (_req, res) => {
   res.send('Hello Expkldfasgdfdhdfasgguhklmkjkjgvhkglhujlmress!');
-});
+//});
 
 
 server.listen(PORT, () => {
