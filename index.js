@@ -7,7 +7,7 @@ server.use(express.static('public'));
 
 server.get('/', (_req, res) => {
   console.log('app got an request on / path');
-  res.send('Hello Expklddfdhdffghhsklasdmdjaaaraaaasss1232aaa!');
+  res.send('Hello Expklddfdhdffghhsklasdmdjaaaasss1232aaa!');
 });
 server.get('/test', (_req, res) => {
   console.log('app got an request on /test path');
