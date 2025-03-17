@@ -19,7 +19,7 @@ server.get("/", (_req, res) => {
   res.send("Hello Express from bbapp 2!");
   process.stdout.write("FIND-IT-TEST process stdout");
   process.stderr.write("FIND-IT-TEST process stdout");
-  console.log("FIND-IT-TEST console log");
+  console.log("aaa test");
   console.error("FIND-IT-TEST console error");
 });
 server.listen(PORT, () => {
