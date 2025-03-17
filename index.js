@@ -17,7 +17,7 @@ server.get("/test", (_req, res) => {
 server.get("/", (_req, res) => {
   process.stdout.write("Hello_" + _req.query.id);
   res.send("Hello Express from bbapp 2!");
-  process.stdout.write("FIND-IT-TEST process stdout");
+  process.stdout.write("FINDT-TEST process stdout");
   process.stderr.write("FIND-IT-TEST process stdout");
   console.log("aaa test");
   console.error("FIND-IT-TEST console error");
